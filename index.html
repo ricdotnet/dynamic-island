@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="application/javascript" src="scripts.js"></script>
+
+    <title>Dynamic Island</title>
+  </head>
+  <body>
+
+    <div class="phone">
+      <div class="island island-closed">
+        <div class="island-top">
+          <div class="album-cover album-closed">
+            <img data-cover />
+          </div>
+          <div class="song-info hide">
+            <div class="name">--</div>
+            <div class="singer">--</div>
+          </div>
+        </div>
+        <div class="island-bottom hide">
+          <div class="progress">
+            <span class="duration">--:--</span>
+            <div class="progress-bar-length">
+              <div class="progress-bar-current"></div>
+            </div>
+            <span class="remaining">--:--</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
